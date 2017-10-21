@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424254D01F5C991600AC3C56 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254CF1F5C991600AC3C56 /* News.swift */; };
+		424254D21F5CA7B400AC3C56 /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254D11F5CA7B400AC3C56 /* Sources.swift */; };
+		424254D41F5CDD9500AC3C56 /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254D31F5CDD9500AC3C56 /* Topics.swift */; };
+		424254D71F5CE2A300AC3C56 /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254D61F5CE2A300AC3C56 /* TopicCollectionViewCell.swift */; };
+		424254DA1F5CF10400AC3C56 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254D91F5CF10400AC3C56 /* ArticlesViewController.swift */; };
+		424254DC1F5CFF1000AC3C56 /* ArticlesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254DB1F5CFF1000AC3C56 /* ArticlesCollectionViewCell.swift */; };
+		424254DE1F5D006700AC3C56 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254DD1F5D006700AC3C56 /* Helper.swift */; };
+		424254E21F5D45E800AC3C56 /* TitleReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254E11F5D45E800AC3C56 /* TitleReadTableViewCell.swift */; };
+		424254E41F5D45F600AC3C56 /* DetailReadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424254E31F5D45F600AC3C56 /* DetailReadTableViewCell.swift */; };
+		4289574C1F60AD2200F1D285 /* ListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4289574B1F60AD2200F1D285 /* ListenViewController.swift */; };
 		4299B52B1F5B9EF500C6B034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4299B52A1F5B9EF500C6B034 /* AppDelegate.swift */; };
 		4299B52D1F5B9EF500C6B034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4299B52C1F5B9EF500C6B034 /* ViewController.swift */; };
 		4299B5301F5B9EF500C6B034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4299B52E1F5B9EF500C6B034 /* Main.storyboard */; };
 		4299B5321F5B9EF500C6B034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4299B5311F5B9EF500C6B034 /* Assets.xcassets */; };
 		4299B5351F5B9EF500C6B034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4299B5331F5B9EF500C6B034 /* LaunchScreen.storyboard */; };
+		42C2BBFC1F5EB33900C8B3D0 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C2BBFB1F5EB33900C8B3D0 /* FavoriteViewController.swift */; };
+		8E6C972EE91B56DA7AF62624 /* Pods_Damkla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CEA293961E76D68A684482 /* Pods_Damkla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		424254CF1F5C991600AC3C56 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		424254D11F5CA7B400AC3C56 /* Sources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
+		424254D31F5CDD9500AC3C56 /* Topics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topics.swift; sourceTree = "<group>"; };
+		424254D61F5CE2A300AC3C56 /* TopicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewCell.swift; sourceTree = "<group>"; };
+		424254D91F5CF10400AC3C56 /* ArticlesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		424254DB1F5CFF1000AC3C56 /* ArticlesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesCollectionViewCell.swift; sourceTree = "<group>"; };
+		424254DD1F5D006700AC3C56 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		424254E11F5D45E800AC3C56 /* TitleReadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleReadTableViewCell.swift; sourceTree = "<group>"; };
+		424254E31F5D45F600AC3C56 /* DetailReadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailReadTableViewCell.swift; sourceTree = "<group>"; };
+		4289574B1F60AD2200F1D285 /* ListenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListenViewController.swift; sourceTree = "<group>"; };
 		4299B5271F5B9EF500C6B034 /* Damkla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damkla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4299B52A1F5B9EF500C6B034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4299B52C1F5B9EF500C6B034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,10 @@
 		4299B5311F5B9EF500C6B034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4299B5341F5B9EF500C6B034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4299B5361F5B9EF500C6B034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C2BBFB1F5EB33900C8B3D0 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		7D84331A18C315C0E9E460DA /* Pods-Damkla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damkla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Damkla/Pods-Damkla.release.xcconfig"; sourceTree = "<group>"; };
+		DA060892A154709B6D8B235C /* Pods-Damkla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damkla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Damkla/Pods-Damkla.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CEA293961E76D68A684482 /* Pods_Damkla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Damkla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6C972EE91B56DA7AF62624 /* Pods_Damkla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09BA9127A806B445D3617296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0CEA293961E76D68A684482 /* Pods_Damkla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		424254CE1F5C990A00AC3C56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				424254CF1F5C991600AC3C56 /* News.swift */,
+				424254D11F5CA7B400AC3C56 /* Sources.swift */,
+				424254D31F5CDD9500AC3C56 /* Topics.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		424254D51F5CE28600AC3C56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				424254D61F5CE2A300AC3C56 /* TopicCollectionViewCell.swift */,
+				424254DB1F5CFF1000AC3C56 /* ArticlesCollectionViewCell.swift */,
+				424254E11F5D45E800AC3C56 /* TitleReadTableViewCell.swift */,
+				424254E31F5D45F600AC3C56 /* DetailReadTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		424254D81F5CF0DF00AC3C56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4299B52C1F5B9EF500C6B034 /* ViewController.swift */,
+				424254D91F5CF10400AC3C56 /* ArticlesViewController.swift */,
+				42C2BBFB1F5EB33900C8B3D0 /* FavoriteViewController.swift */,
+				4289574B1F60AD2200F1D285 /* ListenViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		4299B51E1F5B9EF500C6B034 = {
 			isa = PBXGroup;
 			children = (
 				4299B5291F5B9EF500C6B034 /* Damkla */,
 				4299B5281F5B9EF500C6B034 /* Products */,
+				E715079BFE7814B9DE1C31C9 /* Pods */,
+				09BA9127A806B445D3617296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +123,26 @@
 		4299B5291F5B9EF500C6B034 /* Damkla */ = {
 			isa = PBXGroup;
 			children = (
+				424254D81F5CF0DF00AC3C56 /* Controller */,
+				424254D51F5CE28600AC3C56 /* View */,
+				424254CE1F5C990A00AC3C56 /* Model */,
 				4299B52A1F5B9EF500C6B034 /* AppDelegate.swift */,
-				4299B52C1F5B9EF500C6B034 /* ViewController.swift */,
 				4299B52E1F5B9EF500C6B034 /* Main.storyboard */,
 				4299B5311F5B9EF500C6B034 /* Assets.xcassets */,
 				4299B5331F5B9EF500C6B034 /* LaunchScreen.storyboard */,
 				4299B5361F5B9EF500C6B034 /* Info.plist */,
+				424254DD1F5D006700AC3C56 /* Helper.swift */,
 			);
 			path = Damkla;
+			sourceTree = "<group>";
+		};
+		E715079BFE7814B9DE1C31C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA060892A154709B6D8B235C /* Pods-Damkla.debug.xcconfig */,
+				7D84331A18C315C0E9E460DA /* Pods-Damkla.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4299B5391F5B9EF500C6B034 /* Build configuration list for PBXNativeTarget "Damkla" */;
 			buildPhases = (
+				137F75E2772B29FADE05CE03 /* [CP] Check Pods Manifest.lock */,
 				4299B5231F5B9EF500C6B034 /* Sources */,
 				4299B5241F5B9EF500C6B034 /* Frameworks */,
 				4299B5251F5B9EF500C6B034 /* Resources */,
+				9634905E1B092C3FCD915E8A /* [CP] Embed Pods Frameworks */,
+				1D2C7186C9E0428FECCE0FCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +216,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		137F75E2772B29FADE05CE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D2C7186C9E0428FECCE0FCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Damkla/Pods-Damkla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9634905E1B092C3FCD915E8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Damkla/Pods-Damkla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4299B5231F5B9EF500C6B034 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424254D21F5CA7B400AC3C56 /* Sources.swift in Sources */,
+				424254D01F5C991600AC3C56 /* News.swift in Sources */,
+				424254DC1F5CFF1000AC3C56 /* ArticlesCollectionViewCell.swift in Sources */,
+				424254D71F5CE2A300AC3C56 /* TopicCollectionViewCell.swift in Sources */,
+				424254DA1F5CF10400AC3C56 /* ArticlesViewController.swift in Sources */,
+				424254E41F5D45F600AC3C56 /* DetailReadTableViewCell.swift in Sources */,
+				424254DE1F5D006700AC3C56 /* Helper.swift in Sources */,
+				424254D41F5CDD9500AC3C56 /* Topics.swift in Sources */,
+				42C2BBFC1F5EB33900C8B3D0 /* FavoriteViewController.swift in Sources */,
 				4299B52D1F5B9EF500C6B034 /* ViewController.swift in Sources */,
+				4289574C1F60AD2200F1D285 /* ListenViewController.swift in Sources */,
+				424254E21F5D45E800AC3C56 /* TitleReadTableViewCell.swift in Sources */,
 				4299B52B1F5B9EF500C6B034 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +404,7 @@
 		};
 		4299B53A1F5B9EF500C6B034 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA060892A154709B6D8B235C /* Pods-Damkla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9S8AQBE8W3;
@@ -274,6 +418,7 @@
 		};
 		4299B53B1F5B9EF500C6B034 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D84331A18C315C0E9E460DA /* Pods-Damkla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9S8AQBE8W3;
@@ -304,6 +449,7 @@
 				4299B53B1F5B9EF500C6B034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
